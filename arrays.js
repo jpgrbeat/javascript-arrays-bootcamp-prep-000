@@ -6,6 +6,9 @@ function addElementToBeginningOfArray(anArr, anEl){
   return newArr;
 }
 function addElementToEndOfArray(anArr,anEl){
+  var newArr = [...anArr, anEl];
   
+  return newArr;
 }
+
 
