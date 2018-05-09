@@ -11,4 +11,6 @@ function addElementToEndOfArray(anArr,anEl){
   return newArr;
 }
 
-
+function destructivelyAddElementToBeginningOfArray(anArr,anEl){
+  
+}
