@@ -24,3 +24,10 @@ function accessElementInArray(anArr, idx){
   
   return el;
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(anArr){
+  anArr.shift();
+  
+  return anArr;
+}
+
