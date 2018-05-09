@@ -12,8 +12,8 @@ function addElementToEndOfArray(anArr,anEl){
 }
 
 function destructivelyAddElementToBeginningOfArray(anArr,anEl){
-  
+  anArr.unshift(anEl);
 }
 function destructivelyAddElementToEndOfArray(anArr,anEl){
-  
+  anArr.push(anEl);
 }
