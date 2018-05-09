@@ -37,3 +37,17 @@ function removeElementFromBeginningOfArray(anArr){
   return el;
 }
 
+function destructivelyRemoveElementFromEndOfArray(anArr){
+  anArr.pop();
+  
+  return anArr;
+}
+
+
+
+
+
+
+
+
+
